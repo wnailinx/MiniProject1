@@ -1,0 +1,16 @@
+{
+  "audit_date": "2026-09-27T00:00:00+08:00",
+  "checkpoint_bytes": 62212573,
+  "checkpoint_mib": 59.330533027648926,
+  "checkpoint_sha256": "3e29029d5760d84e5a062bd6acddd57e1342a83844c15866d5d0e09b5c4c8100",
+  "test_cpu_fp32_seconds": 37.709251700001914,
+  "baseline_test_cpu_fp32_seconds": 10.58134500000051,
+  "test_time_ratio": 3.5637484365172947,
+  "peak_working_set_bytes": 1968103424,
+  "peak_working_set_gib": 1.8329391479492188,
+  "limits": {
+    "maximum_time_ratio": 5.0,
+    "maximum_peak_ram_gib": 4.0,
+    "maximum_inference_assets_mib": 64.0
+  }
+}

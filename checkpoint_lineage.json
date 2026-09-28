@@ -1,0 +1,13 @@
+{
+  "source": "runs\\moe-mtp-original-12000\\best_checkpoint.pt",
+  "source_train_tokens": 83558400,
+  "selection_split": "validation",
+  "new_train_tokens": 0,
+  "discount": 0.75,
+  "ngram_weight": 0.134,
+  "minimum_context_counts": {
+    "3": 1,
+    "4": 2,
+    "5": 3
+  }
+}
