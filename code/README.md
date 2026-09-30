@@ -79,7 +79,6 @@ Training writes `checkpoint.pt` and `metrics.json`. Evaluation writes `test_cpu_
 | `data/` | Supplied splits, tokenizer and dataset hashes; keep unchanged. |
 | `tests/test_contract.py` | Checks your model's causality, normalization, independence and gradients. |
 | `RUN_LOG_TEMPLATE.csv` | Optional experiment-log template. |
-| `PACKAGE_MANIFEST.json` | Release hashes; paths are relative to the package root containing code/ and guide/. |
 
 - `build_model(config)` returns a PyTorch model with `context=256`.
 - The supplied trainer calls `forward(ids)` for unnormalized logits; the scorer calls `predict_log_probs(ids)` for finite, normalized natural-log probabilities. Both outputs have shape `[batch, time, 2048]`.
