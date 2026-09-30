@@ -31,7 +31,6 @@ further tuning.
 - `results/`: recorded CPU FP32 validation and test summaries.
 - `REPORT.md`: report source; fill the remaining identity and repository fields.
 - `COMPLIANCE_AUDIT.md`: constraint-by-constraint audit and measured evidence.
-- `SUBMISSION_MANIFEST.json`: SHA256 and size of every submitted file except itself.
 
 ## Install
 
