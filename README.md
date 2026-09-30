@@ -104,9 +104,7 @@ tokenizer, data loader and evaluator. PyTorch's scaled dot-product attention and
 optimization primitives are used directly. No external training text or
 pretrained weights are used.
 
-OpenAI Codex was used to help interpret the assignment, design and implement
-model variants, check causality and resource limits, run and interpret ablations,
-optimize the sparse n-gram path, and draft documentation.
+OpenAI Codex was used to help designing and implementing the experimental model, checking causality and resource limits, running and interpreting ablations and optimizing the sparse n-gram inference path. 
 
 ## Data attribution
 
